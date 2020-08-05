@@ -1,0 +1,38 @@
+export const data = {
+	labels: [
+		'Jan',
+		'Feb',
+		'Mar',
+		'Apr',
+		'May',
+		'Jun',
+		'Jul',
+		'Aug',
+		'Sep',
+		'Oct',
+		'Nov',
+		'Dec',
+	],
+	datasets: [
+		{
+			label: 'Amount $',
+			backgroundColor: '#2ed47ac4',
+			borderWidth: 1,
+			hoverBackgroundColor: '#2ed47a',
+			data: [
+				1000,
+				2000,
+				1500,
+				5000,
+				0,
+				1700,
+				5000,
+				1000,
+				2000,
+				1500,
+				5000,
+				6000,
+			],
+		},
+	],
+};
